@@ -1,0 +1,274 @@
+{
+  "transactions": [
+    {
+      "date": "2025-04-01",
+      "description": "Grocery shopping",
+      "category": "Food",
+      "amount": 45.5
+    },
+    {
+      "date": "2025-04-03",
+      "description": "Monthly Rent",
+      "category": "Housing",
+      "amount": 1200
+    },
+    {
+      "date": "2025-04-05",
+      "description": "Electricity Bill",
+      "category": "Utilities",
+      "amount": 75.2
+    },
+    {
+      "date": "2025-04-18T18:30:00.000Z",
+      "category": "one",
+      "amount": "45444",
+      "description": "fghfbh"
+    },
+    {
+      "date": "2025-04-10T18:30:00.000Z",
+      "category": "two",
+      "amount": "34543",
+      "description": "xcvdfxv dfxvdx"
+    },
+    {
+      "date": "2025-04-10T18:30:00.000Z",
+      "category": "two",
+      "amount": "434",
+      "description": "dfv"
+    },
+    {
+      "date": "2025-04-17T18:30:00.000Z",
+      "category": "one",
+      "amount": "43543",
+      "description": "dvb"
+    },
+    {
+      "id": "62b4",
+      "date": "2025-04-24T18:30:00.000Z",
+      "category": "two",
+      "amount": "3453",
+      "description": "dfvdf"
+    },
+    {
+      "id": "4939",
+      "date": "2025-03-12T18:30:00.000Z",
+      "category": "two",
+      "amount": "434",
+      "description": "gfdbfb"
+    },
+    {
+      "id": "2fa3",
+      "date": "2025-03-03T18:30:00.000Z",
+      "category": "two",
+      "amount": "45645",
+      "description": "fcxvdfv"
+    },
+    {
+      "id": "eaeb",
+      "date": "2025-03-03T18:30:00.000Z",
+      "category": "two",
+      "amount": "45645",
+      "description": "fcxvdfv"
+    },
+    {
+      "id": "bcc1",
+      "date": "2025-04-02T18:30:00.000Z",
+      "category": "two",
+      "amount": "3435",
+      "description": "xcvxvdfxcv"
+    },
+    {
+      "id": "d011",
+      "date": "2025-04-02T18:30:00.000Z",
+      "category": "two",
+      "amount": "3435",
+      "description": "xcvxvdfxcv"
+    },
+    {
+      "id": "e4f3",
+      "date": "2025-04-02T18:30:00.000Z",
+      "category": "two",
+      "amount": "3435",
+      "description": "xcvxvdfxcv"
+    },
+    {
+      "id": "3965",
+      "date": "2025-04-02T18:30:00.000Z",
+      "category": "two",
+      "amount": "3435",
+      "description": "xcvxvdfxcv"
+    },
+    {
+      "id": "2382",
+      "date": "2025-04-02T18:30:00.000Z",
+      "category": "two",
+      "amount": "3435",
+      "description": "xcvxvdfxcv"
+    },
+    {
+      "id": "e211",
+      "date": "2025-04-02T18:30:00.000Z",
+      "category": "two",
+      "amount": "3435",
+      "description": "xcvxvdfxcv"
+    },
+    {
+      "id": "b6b9",
+      "date": "2025-04-02T18:30:00.000Z",
+      "category": "two",
+      "amount": "3435",
+      "description": "xcvxvdfxcv"
+    },
+    {
+      "id": "037a",
+      "date": "2025-01-14T18:30:00.000Z",
+      "category": "two",
+      "amount": "423",
+      "description": "dgbfgbv"
+    },
+    {
+      "id": "9f32",
+      "date": null,
+      "category": null,
+      "amount": null,
+      "description": null
+    },
+    {
+      "id": "89f7",
+      "date": null,
+      "category": null,
+      "amount": null,
+      "description": null
+    },
+    {
+      "id": "a987",
+      "date": null,
+      "category": null,
+      "amount": null,
+      "description": null
+    },
+    {
+      "id": "3ebb",
+      "date": "2025-04-16T18:30:00.000Z",
+      "category": "two",
+      "amount": "3242",
+      "description": "dfv"
+    },
+    {
+      "id": "50ec",
+      "date": "2025-04-03T18:30:00.000Z",
+      "category": "two",
+      "amount": "1324",
+      "description": "2q3e2q"
+    },
+    {
+      "id": "80ab",
+      "date": "2025-01-15T18:30:00.000Z",
+      "category": "two",
+      "amount": "234234",
+      "description": "sdcsdfcv"
+    },
+    {
+      "id": "5e4d",
+      "date": "2025-03-12T18:30:00.000Z",
+      "category": "one",
+      "amount": "234234",
+      "description": "xcvdfxv"
+    },
+    {
+      "id": "a878",
+      "date": "2025-03-12T18:30:00.000Z",
+      "category": "two",
+      "amount": "23w423",
+      "description": "xvdfv"
+    },
+    {
+      "id": "5266",
+      "date": "2025-03-03T18:30:00.000Z",
+      "category": "one",
+      "amount": "433",
+      "description": "cv cv"
+    },
+    {
+      "id": "fcca",
+      "date": "2025-03-20T18:30:00.000Z",
+      "category": "two",
+      "amount": "w4r34w",
+      "description": "cxv"
+    },
+    {
+      "id": "8305",
+      "date": "2025-03-06T18:30:00.000Z",
+      "category": "two",
+      "amount": "3544",
+      "description": "xfv"
+    },
+    {
+      "id": "1ae9",
+      "date": "2025-04-02T18:30:00.000Z",
+      "category": "one",
+      "amount": "353",
+      "description": "fsv"
+    },
+    {
+      "id": "3e3c",
+      "date": "2025-04-10T18:30:00.000Z",
+      "category": "one",
+      "amount": "3453",
+      "description": "cv "
+    },
+    {
+      "id": "aa80",
+      "date": "2025-04-09T18:30:00.000Z",
+      "category": "two",
+      "amount": "546",
+      "description": "gfdb"
+    },
+    {
+      "id": "4e65",
+      "date": "2025-04-17T18:30:00.000Z",
+      "category": "two",
+      "amount": "54",
+      "description": "dfv"
+    },
+    {
+      "id": "257a",
+      "date": "2025-04-09T18:30:00.000Z",
+      "category": "two",
+      "amount": "435345",
+      "description": "345345r"
+    },
+    {
+      "id": "9e04",
+      "date": "2025-04-11T18:30:00.000Z",
+      "category": "other",
+      "otherCategory": "trip",
+      "amount": "454",
+      "description": "sdfcsdfc"
+    },
+    {
+      "id": "b4f1",
+      "date": "2025-06-12T18:30:00.000Z",
+      "category": "school fees",
+      "otherCategory": "",
+      "amount": "45343",
+      "description": "dfvdf"
+    },
+    {
+      "id": "762e",
+      "date": "2025-07-17T18:30:00.000Z",
+      "category": "other",
+      "otherCategory": "szdcdsc",
+      "amount": "34534",
+      "description": "dfgvdfv"
+    },
+    {
+      "id": "9344",
+      "date": "2025-08-13T18:30:00.000Z",
+      "category": "other",
+      "otherCategory": "othercategory",
+      "amount": "5345",
+      "description": "othercat"
+    }
+  ]
+}

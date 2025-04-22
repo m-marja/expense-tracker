@@ -2,5 +2,10 @@
   <mat-sidenav class="main-wrapper--sidebar" opened mode="side">
     <app-side-navigation></app-side-navigation>
   </mat-sidenav>
-   <mat-sidenav-content class="main-wrapper--content">Main content</mat-sidenav-content>
+  <mat-sidenav-content class="main-wrapper--content">
+    <app-toolbar></app-toolbar>
+    <div class="subpage-content">
+      <router-outlet></router-outlet>
+    </div>
+  </mat-sidenav-content>
 </mat-sidenav-container>

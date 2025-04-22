@@ -1,7 +1,7 @@
 <div class="navigation-menu-wrapper">
     <mat-list class="custom-mat-list">
         @for (item of menuItem; track $index) {
-            <mat-list-item class="mat-list-item">{{item}}</mat-list-item>
+            <a mat-list-item class="mat-list-item" [routerLink]="item.route" routerLinkActive="router-link-active" >{{item.label}}</a>
         }
     </mat-list>
 </div>

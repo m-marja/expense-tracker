@@ -1,16 +1,19 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterModule } from '@angular/router';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { SideNavigationComponent } from './components/side-navigation/side-navigation.component';
+import { HistoryComponent } from './components/history/history.component';
+import { ToolbarComponent } from './components/history/toolbar/toolbar.component';
 
 @Component({
   selector: 'app-root',
   imports: [
-    RouterOutlet,
+    RouterModule,
     MatButtonModule,
     MatSidenavModule,
     SideNavigationComponent,
+    ToolbarComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
