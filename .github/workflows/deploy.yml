@@ -3,7 +3,7 @@ name: Deploy Angular to GitHub Pages
 on:
   push:
     branches:
-      - main  # or 'master' if that's your default
+      - main  # or 'master' if your default branch is that
 
 jobs:
   deploy:
@@ -27,12 +27,5 @@ jobs:
       - name: Check dist contents
         run: ls -R dist
 
-      - name: Configure Git identity
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
       - name: Deploy to GitHub Pages
-        run: npx angular-cli-ghpages --dir=dist/expense-tracker --no-silent
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: npx angular-cli-ghpages --dir=dist/expense-tracker --no-silent --repo=https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git
