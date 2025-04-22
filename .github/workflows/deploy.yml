@@ -3,10 +3,10 @@ name: Deploy Angular to GitHub Pages
 on:
   push:
     branches:
-      - main  # or 'master' if that's your default
+      - main
 
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -21,18 +21,12 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build project
+      - name: Build Angular project
         run: npm run build -- --base-href="/expense-tracker/"
 
-      - name: Check dist contents
-        run: ls -R dist
-
-      - name: Configure Git identity
-        run: |
-          git config user.name "m-marja"
-          git config user.email "happymarja@gmail.com"
-
       - name: Deploy to GitHub Pages
-        run: npx angular-cli-ghpages --dir=dist/expense-tracker --no-silent
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: dist/expense-tracker
+          token: ${{ secrets.GH_TOKEN }}
