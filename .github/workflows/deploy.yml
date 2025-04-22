@@ -24,5 +24,15 @@ jobs:
       - name: Build project
         run: npm run build -- --base-href="/expense-tracker/"
 
+      - name: Check dist contents
+        run: ls -R dist
+
+      - name: Configure Git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
       - name: Deploy to GitHub Pages
         run: npx angular-cli-ghpages --dir=dist/expense-tracker --no-silent
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
