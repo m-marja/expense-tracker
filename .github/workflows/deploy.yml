@@ -25,4 +25,4 @@ jobs:
         run: npm run build -- --base-href="/expense-tracker/"
 
       - name: Deploy to GitHub Pages
-        run: npx angular-cli-ghpages --dir=dist/temp-angular
+        run: npx angular-cli-ghpages --dir=dist/expense-tracker

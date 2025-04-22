@@ -19,5 +19,5 @@ import { ToolbarComponent } from './components/history/toolbar/toolbar.component
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
-  title = 'temp-angular';
+  title = 'expense-tracker';
 }

@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "temp-angular": {
+    "expense-tracker": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/temp-angular",
+            "outputPath": "dist/expense-tracker",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -36,7 +36,8 @@
               "src/styles.scss"
             ],
             "scripts": [],
-            "baseHref": "/expense-tracker/"
+            "baseHref": "/expense-tracker/",
+            "inlineFonts": false
           },
           "configurations": {
             "production": {
@@ -66,10 +67,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "temp-angular:build:production"
+              "buildTarget": "expense-tracker:build:production"
             },
             "development": {
-              "buildTarget": "temp-angular:build:development"
+              "buildTarget": "expense-tracker:build:development"
             }
           },
           "defaultConfiguration": "development"
