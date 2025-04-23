@@ -28,5 +28,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
-          folder: dist/expense-tracker/browser
+          folder: dist/expense-tracker/
           token: ${{ secrets.GH_TOKEN }}
